@@ -23,7 +23,32 @@
         <h3>Contact us on</h3>
         <p>example@email.com  OR +4624 44 44 44</p>
     </div>
-
+    <!--Contact form-->
+    <div class="container">
+        <div class="card-text">
+            <form action="?">
+                <div class="card-name">
+                    <label for="fname">FULL NAME</label>
+                    <input type="text" id="fname" rows="900">
+                </div>
+                <div class="card-email">
+                    <label for="email">EMAIL</label>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                </div>
+                <div class="card-message-title">
+                    <label for="message-title">MESSAGE REGARDING</label>
+                    <input type="text" id="message-title">
+                </div>
+                <div class="card-message">
+                    <label for="message">MESSAGE</label>
+                    <input type="textarea" id="message" placeholder="Your Message" required>
+                </div>
+                <div class="card-btn">
+                    <button type="submit">SEND MESSAGE</button>
+                </div>
+            </form>
+        </div>
+    </div>
         <!--JavaScript-->
     <script>
         function burgermenu() {

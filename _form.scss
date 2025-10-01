@@ -1,0 +1,78 @@
+body {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    background-color: #b4bfc0;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+.container {
+    margin-left: 20px;
+    max-width:958px;
+    width: 100%;
+    max-height: 594px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right, 
+    #BE0909 0%, #BE0909 63%, #FFB039 63%, #FFB039 100%);
+    background-color: #BE0909;
+}
+.card-text {
+    max-width:609px;
+    width: 100%;
+    margin-left: 50px;
+    display: block;
+}
+.card-btn {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+input {
+    cursor: text;
+    margin-bottom: 40px;
+    outline: 0px;
+    border: none;
+    border-bottom: solid 1px white;
+    background: transparent;
+    background-color: inherit;
+    color: wheat;
+    font-size: 18px;
+}
+::placeholder {
+    color: wheat;
+}
+label {
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: start;
+    cursor: pointer;
+}
+button {
+    border: none;
+    margin-top: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: palevioletred;
+    color: aliceblue;
+    font-size: 18px;
+    max-width: 202px;
+    width: 100%;
+    max-height: 48px ;
+    height: 100%;
+    border-radius: 40px;
+    cursor: pointer;
+}
+.roboto-uniquifier {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+"wdth" 100;
+}
