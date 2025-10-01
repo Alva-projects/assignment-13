@@ -9,4 +9,26 @@ body {
   background-color: #f08cf8;
 }
 
+.topnav a {
+  float: left;
+  display: flex;
+  color: #f1dbf3;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 11px;
+  font-size: 2rem;
+}
+
+.topnav a:hover {
+    background-color: palevioletred;
+}
+
+.topnav a.active {
+    background-color: rgb(211, 57, 109);
+}
+
+.topnav .icon {
+    display: flex;
+}
 
