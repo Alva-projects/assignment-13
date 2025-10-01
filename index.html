@@ -9,22 +9,14 @@
 </head>
 <body>
     <!--Navigation-->
-    <div class="navigation" id="nav-bar">
-        <ul>
-            <li>
-                <a href="#home"></a>Home
-            </li>
-            <li>
-                <a href="#about"></a>About
-            </li>
-            <li>
-                <a href="#contact"></a>Contact
-            </li>
-            <li>
-                <a class="icon" onclick="menu()">
-            <i class="fa fa-bars"></i>
-            </a></li>
-        </ul>
+    <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#news">News</a>
+    <a href="#contact">Contact</a>
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
     </div>
     <div class="info">
         <h2>
@@ -32,6 +24,7 @@
         </h2>
         <p>This is my go at making a responsive menu by using JavaScript.</p>
     </div>
+
         <!--JavaScript-->
     <script>
     function burgerMenu() {
