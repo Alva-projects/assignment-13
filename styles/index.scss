@@ -1,9 +1,10 @@
 body {
   font-family: sans-serif;
   background-color: rgb(34, 33, 33);
+  margin: 0px;
 }
 p, h3 {
-    color: rgb(251, 239, 216);
+  color: rgb(251, 239, 216);
 }
 
 
@@ -24,20 +25,20 @@ p, h3 {
 }
 
 .topnav a:hover {
-    background-color: palevioletred;
-    color: rgb(249, 38, 108);
+  background-color: palevioletred;
+  color: rgb(249, 38, 108);
 }
 
 .topnav a.active {
-    background-color: rgb(211, 57, 109);
+  background-color: rgb(211, 57, 109);
 }
 
 .topnav .icon {
-    display: none;
+  display: none;
 }
 
 .info {
-    padding-left: 14px;
+  padding-left: 14px;
 }
 
 
