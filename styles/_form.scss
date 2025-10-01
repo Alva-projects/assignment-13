@@ -1,25 +1,22 @@
 body {
-    font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
     background-color: #b4bfc0;
     font-style: normal;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     min-height: 100vh;
 }
 .container {
     margin-left: 20px;
-    max-width:958px;
+    padding: 22px;
+    max-width:400px;
     width: 100%;
-    max-height: 594px;
+    max-height: 500px;
     height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     background: linear-gradient(to right, 
-    #BE0909 0%, #BE0909 63%, #FFB039 63%, #FFB039 100%);
-    background-color: #BE0909;
+    rgb(249, 38, 108) 0%, palevioletred 63%, palevioletred  53%, #eaa3ee 100%);
+    background-color: #eaa3ee;
 }
 .card-text {
     max-width:609px;
@@ -29,12 +26,13 @@ body {
 }
 .card-btn {
     display: flex;
-    justify-content: end;
-    align-items: end;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 10px;
 }
 input {
     cursor: text;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     outline: 0px;
     border: none;
     border-bottom: solid 1px white;
@@ -55,8 +53,8 @@ label {
     cursor: pointer;
 }
 button {
-    border: none;
-    margin-top: 50px;
+    border: solid;
+    margin: 20px 20px;
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: palevioletred;
@@ -69,10 +67,11 @@ button {
     border-radius: 40px;
     cursor: pointer;
 }
+button:hover {
+    background-color: #b4bfc0;
+}
 .roboto-uniquifier {
-  font-family: "Roboto", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  font-variation-settings:
-"wdth" 100;
+  font-variation-settings:"wdth" 100;
 }
