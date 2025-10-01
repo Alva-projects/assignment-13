@@ -10,13 +10,13 @@
 <body>
     <!--Navigation-->
     <div class="topnav" id="myTopnav">
-    <a href="#home" class="active">Home</a>
-    <a href="#news">News</a>
-    <a href="#contact">Contact</a>
-    <a href="#about">About</a>
-    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i class="fa fa-bars"></i>
-    </a>
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="burgermenu()">
+            <i class="fa fa-bars"></i>
+        </a>
     </div>
     <div class="info">
         <h2>
@@ -27,14 +27,14 @@
 
         <!--JavaScript-->
     <script>
-    function burgerMenu() {
-        let burger = document.getElementById("nav-bar");
-        if (burger.className === "nav") {
-        burger.className += " responsive";
+        function burgermenu() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
         } else {
-        burger.className = "nav";
+            x.className = "topnav";
         }
-    }
+        }
     </script>
 </body>
 </html>
