@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="styles/index.css">
 </head>
 <body>
-    <!--Off screen menu-->
+    <!--Navigation-->
     <div class="navigation" id="nav-bar">
         <ul>
             <li>
@@ -26,13 +26,22 @@
             </a></li>
         </ul>
     </div>
-    
-    <!--Navigation-->
-    <nav>
-        <div class="ham-menu">
-            <span class="span-1"></span>
-            <span class="span-2"></span>
-            <span class="span-3"></span>
-    </nav>
+    <div class="info">
+        <h2>
+            My responsive menu.
+        </h2>
+        <p>This is my go at making a responsive menu by using JavaScript.</p>
+    </div>
+        <!--JavaScript-->
+    <script>
+    function burgerMenu() {
+        let burger = document.getElementById("nav-bar");
+        if (burger.className === "nav") {
+        burger.className += " responsive";
+        } else {
+        burger.className = "nav";
+        }
+    }
+    </script>
 </body>
 </html>
