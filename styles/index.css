@@ -32,9 +32,7 @@ p {
 }
 
 .topnav .icon {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
 }
 
 .info {
