@@ -1,6 +1,6 @@
 body {
   font-family: sans-serif;
-  background-color: black;
+  background-color: rgb(34, 33, 33);
 }
 
 p {
@@ -10,6 +10,7 @@ p {
 .topnav {
   overflow: hidden;
   background-color: #f08cf8;
+  border-bottom: solid 5px palevioletred;
 }
 
 .topnav a {
